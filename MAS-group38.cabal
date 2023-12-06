@@ -1,0 +1,40 @@
+cabal-version:       3.8
+
+name:                MAS-group38
+version:             0.1.0.0
+license:             NONE
+author:              JJWRoeloffs
+maintainer:          jelleroeloffs@gmail.com
+
+
+executable Assignment6
+  main-is:             Assignment6.hs
+  ghc-options:         -Wall -Wcompat -Wmissing-home-modules
+  build-depends:
+      Chart
+    , Chart-cairo
+    , random
+    , random-fu
+    , mwc-random
+    , statistics
+    , vector
+    , aeson
+    , base
+    , binary
+    , binary-orphans
+    , bytestring
+    , colour
+    , data-default-class
+    , directory
+    , lens
+    , old-locale
+    , pretty-simple
+    , split
+    , stm
+    , string-conversions
+    , text
+    , thyme
+    , time
+  default-language:    Haskell2010
+  other-modules:  Utils.NormalDistr
+  hs-source-dirs: src
